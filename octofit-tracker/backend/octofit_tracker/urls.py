@@ -2,6 +2,15 @@
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
+    
+REST API Endpoints:
+    - API Root: https://$CODESPACE_NAME-8000.app.github.dev/api/
+    - Users: https://$CODESPACE_NAME-8000.app.github.dev/api/users/
+    - Teams: https://$CODESPACE_NAME-8000.app.github.dev/api/teams/
+    - Activities: https://$CODESPACE_NAME-8000.app.github.dev/api/activities/
+    - Leaderboard: https://$CODESPACE_NAME-8000.app.github.dev/api/leaderboard/
+    - Workouts: https://$CODESPACE_NAME-8000.app.github.dev/api/workouts/
+
 Examples:
 Function views
     1. Add an import:  from my_app import views
